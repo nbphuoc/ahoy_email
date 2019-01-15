@@ -56,7 +56,7 @@ module AhoyEmail
     ahoy_message.assign_attributes(data[:extra] || {})
 
     ahoy_message.sent_at = Time.now
-    ahoy_message.save!
+    # ahoy_message.save!
 
     ahoy_message
   end
